@@ -73,7 +73,15 @@ const server = http.createServer((req, res) => {
       res.end(JSON.stringify({ title, ...JSON.parse(data), updatedAt }));
     });
   } else if (req.method === "DELETE" && pathname === "/delete-todos") {
-    res.end("delete todos successfully");
+    const title = searchParams.get("title");
+    const allTodos = JSON.parse(
+      fs.readFileSync(filePath, { encoding: "utf-8" }),
+    );
+    const filterData = allTodos.filter((todo) => todo.title !== title);
+
+    fs.writeFileSync(filePath, JSON.stringify(filterData, null, 2));
+
+    res.end("Deleted successful");
   } else {
     res.end("No route found");
   }

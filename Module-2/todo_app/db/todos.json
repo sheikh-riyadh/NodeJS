@@ -1,53 +1,17 @@
 [
   {
-    "title": "Buy groceries",
-    "body": "Purchase milk, eggs, bread, and vegetables.",
-    "createtAt": "2026-06-11T03:20:41.718390Z"
-  },
-  {
-    "title": "Finish project report",
-    "body": "Complete the final draft and send it to the manager.",
-    "createtAt": "2026-06-12T03:20:41.718518Z"
-  },
-  {
-    "title": "Book dentist appointment",
-    "body": "Schedule a routine dental checkup for next week.",
-    "createtAt": "2026-06-13T03:20:41.718586Z"
-  },
-  {
-    "title": "Workout session",
-    "body": "Go for a 45-minute cardio and strength training session.",
-    "createtAt": "2026-06-14T03:20:41.718608Z"
-  },
-  {
-    "title": "Read a book",
-    "body": "Read at least 30 pages of the current novel.",
-    "createtAt": "2026-06-15T03:20:41.718664Z"
-  },
-  {
-    "title": "ExpressJS",
-    "body": "Learning advance express",
-    "createtAt": "2026-06-17T03:00:50.439Z"
-  },
-  {
-    "title": "MongoDB",
-    "body": "Learning MongoDB",
-    "createtAt": "2026-06-17T03:01:19.189Z"
-  },
-  {
-    "title": "MongoDB",
-    "body": "Learning MongoDB",
-    "createtAt": "2026-06-18T02:18:54.987Z"
-  },
-  {
     "title": "Prisma",
-    "body": "Hello world",
-    "createtAt": "2026-06-18T02:30:05.737Z",
-    "updatedAt": "2026-06-18T03:10:08.019Z"
+    "body": "Learning Prisma",
+    "createtAt": "2026-06-19T02:57:07.092Z"
   },
   {
     "title": "NodeJS",
-    "createtAt": "2026-06-17T02:57:30.441Z",
-    "updatedAt": "2026-06-18T03:10:50.695Z"
+    "body": "Learning NodeJS",
+    "createtAt": "2026-06-19T02:57:25.092Z"
+  },
+  {
+    "title": "ExpressJS",
+    "body": "Learning ExpressJS",
+    "createtAt": "2026-06-19T02:57:50.815Z"
   }
 ]
